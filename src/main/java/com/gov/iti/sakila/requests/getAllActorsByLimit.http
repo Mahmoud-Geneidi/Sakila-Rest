@@ -1,0 +1,15 @@
+POST  http://localhost:9090/Sakila/actor HTTP/1.1
+Content-Type: text/xml
+
+
+<soap:Envelope
+ xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:jets="http://webService.sakila.iti.gov.com/">
+
+   <soap:Body>
+      <jets:getAllActorsByLimit>
+         <start>1</start>
+         <limit>5</limit>
+      </jets:getAllActorsByLimit>
+   </soap:Body>
+</soap:Envelope>
