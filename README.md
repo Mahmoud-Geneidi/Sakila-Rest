@@ -18,7 +18,7 @@ To use this project, you will need to have access to a **Sakila schema**.
 
 * Deploy the application on tomcat server using command **"mvn clean install tomcat7:deploy"**
 
-The web services will now be available at http://localhost:9090/Sakila. You can use a tool like Postman to interact with the services.
+The web services will now be available at http://localhost:9090/SakilaRest/sakila. You can use a tool like Postman to interact with the services.
 
 ## Web Services
 ### / Actors
