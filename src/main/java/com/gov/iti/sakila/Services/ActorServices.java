@@ -19,15 +19,15 @@ public class ActorServices {
         return actorDao.getActorById(id);
     }
 
-    public void saveActor(Actor actor) {
+    public void saveActor(ActorDto actor) {
         actorDao.save(actor);
     }
 
-    public void updateActor(Actor actor) {
+    public void updateActor(ActorDto actor) {
         actorDao.update(actor);
     }
 
-    public void deleteActor(Actor actor) {
+    public void deleteActor(ActorDto actor) {
         actorDao.delete(actor);
     }
 

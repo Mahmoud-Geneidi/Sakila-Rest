@@ -29,16 +29,16 @@ public class ActorDao extends GenericDao<Actor> {
 
     }
 
-    public void save(Actor actor) {
-        super.save(actor);
+    public void save(ActorDto actor) {
+        super.save(actorMapper.actorDtoToActor(actor));
     }
 
-    public void update(Actor actor) {
-        super.update(actor);
+    public void update(ActorDto actor) {
+        super.update(actorMapper.actorDtoToActor(actor));
     }
 
-    public void delete(Actor actor) {
-        super.delete(actor);
+    public void delete(ActorDto actor) {
+        super.delete(actorMapper.actorDtoToActor(actor));
     }
 
     public List<ActorDto> getAllActors() {

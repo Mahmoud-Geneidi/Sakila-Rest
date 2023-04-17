@@ -19,11 +19,11 @@ public class FilmServices {
         return filmDao.getFilmById(id);
     }
 
-    public void save(Film film) {
+    public void save(FilmDto film) {
         filmDao.save(film);
     }
 
-    public void update(Film film) {
+    public void update(FilmDto film) {
         filmDao.update(film);
     }
 

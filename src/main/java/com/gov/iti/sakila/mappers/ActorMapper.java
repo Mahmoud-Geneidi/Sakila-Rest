@@ -12,4 +12,11 @@ public interface ActorMapper {
     @Mapping(source = "lastName",target = "lastName")
     @Mapping(source = "lastUpdate",target = "lastUpdate")
     ActorDto actorToActorDto(Actor actor);
+
+    @Mapping(source = "actorId",target = "actorId")
+    @Mapping(source = "firstName",target = "firstName")
+    @Mapping(source = "lastName",target = "lastName")
+    @Mapping(source = "lastUpdate",target = "lastUpdate")
+
+    Actor actorDtoToActor(ActorDto actor);
 }

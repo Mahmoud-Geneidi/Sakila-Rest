@@ -25,12 +25,12 @@ public class FilmDao extends GenericDao<Film> {
         return filmOptional.map(filmMapper::filmToFilmDto);
     }
 
-    public void save(Film film) {
-        super.save(film);
+    public void save(FilmDto film) {
+        super.save(filmMapper.filmDtoToFilm(film));
     }
 
-    public void update(Film film) {
-        super.update(film);
+    public void update(FilmDto film) {
+        super.update(filmMapper.filmDtoToFilm(film));
     }
 
     public void delete(FilmDto film) {

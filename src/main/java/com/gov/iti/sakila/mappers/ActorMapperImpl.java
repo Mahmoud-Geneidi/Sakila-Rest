@@ -26,4 +26,20 @@ public class ActorMapperImpl implements ActorMapper {
 
         return actorDto;
     }
+
+    @Override
+    public Actor actorDtoToActor(ActorDto actorDto) {
+        if ( actorDto == null ) {
+            return null;
+        }
+
+        Actor actor = new Actor();
+
+        actor.setActorId( actorDto.getActorId() );
+        actor.setFirstName( actorDto.getFirstName() );
+        actor.setLastName( actorDto.getLastName() );
+        actor.setLastUpdate( actorDto.getLastUpdate() );
+
+        return actor;
+    }
 }
