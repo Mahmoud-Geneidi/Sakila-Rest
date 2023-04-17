@@ -2,7 +2,7 @@
 
 
 # Sakila Web Services
-This project provides Restful web services for the Sakila schema. Services are for actor and film tables , can be used to retrieve, create, update, and delete data from the Sakila database.
+This project provides Restful web services for the Sakila schema. Services can be used to retrieve, create, update, and delete data from the Sakila database.
 
 ## API Documentation
 You can find the **API documentation** for this project here ("https://documenter.getpostman.com/view/26734747/2s93XyUNhu"). The documentation provides detailed information on how to use the web services and what parameters they accept.
@@ -10,7 +10,7 @@ You can find the **API documentation** for this project here ("https://documente
 ## Getting Started
 To use this project, you will need to have access to a **Sakila schema**.
 
-* Clone the repository to your local machine: git clone https://github.com/Mahmoud-Geneidi/SakilaSoap.git
+* Clone the repository to your local machine: git clone https://github.com/Mahmoud-Geneidi/Sakila-Rest.git
 
 * Navigate to the project directory: cd sakila-web-services
 
